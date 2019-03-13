@@ -7,8 +7,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.head{
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 15px 0;
+}
+.head h2{
+    margin: 0;
+}
+.content{
+    width: 90%;
+    margin: 0 auto;
+}
+.add-btn a{
+    text-decoration: none;
+    color: white;
 }

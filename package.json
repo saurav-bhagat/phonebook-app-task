@@ -5,11 +5,13 @@
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "cd build;cp ./index.html 200.html;sudo rm -f static/js/*.js.map;",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

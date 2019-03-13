@@ -1,0 +1,19 @@
+.back-btn{
+    border: none;
+    color: #555;
+    font-size: 18px;
+    background: transparent;
+}
+.back-btn a{
+    text-decoration: none;
+}
+input{
+    border-radius: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 300px;
+    border: none;
+    border: 1px solid #777;
+    font-size: 16px;
+    padding-left: 10px;
+}
